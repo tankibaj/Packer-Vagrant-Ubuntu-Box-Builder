@@ -8,7 +8,7 @@ Build your own vagrant ubuntu box with packer for virtualbox.
 
 
 
-## Virtualbox
+### Virtualbox
 
 **macOS:** `brew install virtualbox`
 
@@ -16,7 +16,7 @@ Build your own vagrant ubuntu box with packer for virtualbox.
 
 
 
-## VirtualBox Extension Pack
+### VirtualBox Extension Pack
 
 [Download](https://download.virtualbox.org/virtualbox/6.1.16/Oracle_VM_VirtualBox_Extension_Pack-6.1.16.vbox-extpack)
 
@@ -24,7 +24,7 @@ Run VirtualBox, then go to `Tools` > `Preferences` and select the `Extensions` t
 
 
 
-## Packer
+### Packer
 
 **macOS:** `brew install packer`
 
@@ -32,7 +32,7 @@ Run VirtualBox, then go to `Tools` > `Preferences` and select the `Extensions` t
 
 
 
-## Clone repository
+### Clone repository
 
 ```bash
 git clone git@github.com:stevenliebregt/docker-compose-lemp-stack.git
@@ -40,7 +40,7 @@ git clone git@github.com:stevenliebregt/docker-compose-lemp-stack.git
 
 
 
-## ISO
+### ISO
 
 Download ubuntu server iso and put into `iso` directory.
 
