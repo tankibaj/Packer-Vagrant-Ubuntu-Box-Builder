@@ -4,8 +4,21 @@ Build your own vagrant ubuntu box with packer for virtualbox.
 
 
 
-# Building prerequisite 
+Table of Contents
+=================
 
+* [Building prerequisite](#building-prerequisite)
+   * [Virtualbox](#virtualbox)
+   * [VirtualBox Extension Pack](#virtualbox-extension-pack)
+   * [Packer](#packer)
+   * [Clone repository](#clone-repository)
+   * [ISO](#iso)
+* [Build](#build)
+* [Add Vagrant Box](#add-vagrant-box)
+
+
+
+## Building prerequisite 
 
 
 ### Virtualbox
@@ -50,7 +63,7 @@ curl http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-amd6
 
 
 
-# Build
+## Build
 
 Please run following command to build Vagrant Box:
 
@@ -62,7 +75,7 @@ Your created Vagrant Box will be saved in `box` directory.
 
 
 
-# Add Vagrant Box
+## Add Vagrant Box
 
 ```bash
 vagrant box add box/ubuntu-18.04.5.box --name ubuntu18045
