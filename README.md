@@ -48,7 +48,7 @@ Run VirtualBox, then go to `Tools` > `Preferences` and select the `Extensions` t
 ### Clone repository
 
 ```bash
-git clone git@github.com:stevenliebregt/docker-compose-lemp-stack.git
+https://github.com/tankibaj/Packer-Vagrant-Ubuntu-Box-Builder.git
 ```
 
 
